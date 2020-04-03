@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
+import Example from "./Example";
 function App() {
     return (
         <div className="container">
@@ -8,11 +8,15 @@ function App() {
                 <div className="col-md-8">
                     <div className="card">
                         <div className="card-header">
-                            React Component <a href="/"> Doses </a>Laravel
+                            React Component Laravel
                         </div>
 
+                        <Example />
+
                         <div className="card-body">Hello component!</div>
-                        <h2>Listed Links</h2>
+                        <h2>
+                            Listed <a href="/login">Logins</a>
+                        </h2>
                         <div className="card-body"> sd</div>
                     </div>
                 </div>
