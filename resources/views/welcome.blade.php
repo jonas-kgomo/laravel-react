@@ -7,7 +7,7 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Inter:200,600" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -80,7 +80,9 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
+                    <div id="app" class="title m-b-md">
+                    </div> 
+                <!-- <div class="title m-b-md">
                     Laravel
                 </div>
 
@@ -93,8 +95,9 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+                </div> -->
             </div>
+            <script type="text/javascript" src="js/app.js"></script>
         </div>
     </body>
 </html>
